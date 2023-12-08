@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,300&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 660px;
+    height: 661px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 5px 0px 20px 0px rgba(185, 212, 208, 0.40);
+    background-image: url("../img/pic\(1\).svg"), url("../img/66.svg"), url("../img/35.svg"), url("../img/Fill\ 227.svg");
+    position: absolute;
+    background-position: left top, left 500px, right 150px, right bottom;
+    background-repeat: no-repeat;
+}
+
+.wrapper img {
+    margin: 0 auto;
+    margin-top: 48px;
+    display: block;
+}
+
+.wrapper input {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #CBCDCD;
+    background: #FFF;
+    gap: 0 43px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 47px;
+}
+
+.wrapper button {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    background: var(--Btn, #F9ED35);
+    margin: 0 auto;
+    display: block;
+    margin-top: 24px;
+    color: #282929;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    border-color: transparent;
+    line-height: normal;
+    letter-spacing: -0.014px;
+}
+
+.first-link {
+    border-radius: 10px;
+    background: #3B5999;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    flex-shrink: 0;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.014px;
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    width: 350px;
+    height: 50px;
+}
+
+.second-link {
+    width: 350px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.014px;
+    border-radius: 10px;
+    background: #4285F4;
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+
+.wrapper label {
+    text-align: center;
+}
